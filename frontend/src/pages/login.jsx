@@ -17,15 +17,11 @@ function Login() {
             <h2>Acesso ao Ambiente Virtual</h2>
 
             <div className="linha"></div>
-            
+
             <form onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="email">Email:</label>
-                    <input
-                        type="email"
-                        id="email"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
+                    <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)}
                         required
                     />
                 </div>
