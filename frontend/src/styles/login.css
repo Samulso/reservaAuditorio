@@ -1,17 +1,111 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Questrial&display=swap');
 
 body {
-  margin: 0;
-  font-family: 'Questrial', sans-serif;
-  background-color: #ffffff;
+    margin: 0;
+    font-family: 'Questrial', sans-serif;
+    background-color: #ffffff;
 }
 
 .login-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  border: 1px solid red;
-  color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    color: black;
+    width: 500px;
+}
+
+.login-container img {
+    width: 130px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.linha {
+    width: 100%;
+    height: 1px;
+    margin: 50px auto;
+    background-color: #a6a6a6;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs-label {
+    margin: 4px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.inputs-label input,
+select,
+textarea {
+    width: 400px;
+    padding: 16px 12px 8px 12px;
+    margin: 0px 15px 10px;
+    font-size: 16px;
+    border: 1px solid #a6a6a6;
+    border-radius: 22px;
+    outline: none;
+    background: none;
+    transition: border-color 0.2s;
+}
+
+
+.inputs-label label {
+    position: absolute;
+    color: #a6a6a6;
+    top: -9px;
+    left: 32px;
+    font-size: 12px;
+    background: #fff;
+    padding: 0 4px;
+    pointer-events: none;
+    border-radius: 5px;
+}
+
+.register-field {
+    display: flex;
+    color: #a6a6a6;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 16px;
+    gap: 6px;
+}
+
+.sublinhado {
+    color:#2a8fe6;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.button-1 {
+    color: #fff;
+    padding: 17px 60px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #f28c28;
+    text-decoration: none;
+    margin-top: 15%;
+    font-family: 'Questrial', sans-serif;
+    border-radius: 100px;
+    border: none;
+    transition: 0.3s ease;
+}
+
+.button-1:hover {
+    background-color: #d96c00;
 }
