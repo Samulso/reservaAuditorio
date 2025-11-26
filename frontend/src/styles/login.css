@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Questrial&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Questrial', sans-serif;
+  background-color: #ffffff;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border: 1px solid red;
+  color: black;
+}
