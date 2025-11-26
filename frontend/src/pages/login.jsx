@@ -14,7 +14,10 @@ function Login() {
     return (
         <div className="login-container">
             <img src="../src/assets/img/senac-logo.jpg" alt="" />
-            <h2>Login</h2>
+            <h2>Acesso ao Ambiente Virtual</h2>
+
+            <div className="linha"></div>
+            
             <form onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="email">Email:</label>
