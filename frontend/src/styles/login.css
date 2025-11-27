@@ -59,10 +59,19 @@ textarea {
     border: 1px solid #a6a6a6;
     border-radius: 22px;
     outline: none;
-    background: none;
+    background: #fff !important;
+    color: #000 !important;
+    -webkit-text-fill-color: #000 !important;
     transition: border-color 0.2s;
 }
 
+.inputs-label input:-webkit-autofill,
+.inputs-label input:-webkit-autofill:hover,
+.inputs-label input:-webkit-autofill:focus,
+.inputs-label input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+    -webkit-text-fill-color: #000 !important;
+}
 
 .inputs-label label {
     position: absolute;
