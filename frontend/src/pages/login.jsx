@@ -39,7 +39,7 @@ function Login() {
 
 
                 <div className="register-field">
-                    <h3>Não possui uma conta? </h3> <a className="sublinhado"href="/register">Registre-se</a>
+                    <h3>Não possui uma conta? </h3> <a className="sublinhado" href="/register.jsx">Registre-se</a>
                 </div>
 
                 <button className="button-1" type="submit">Login</button>
