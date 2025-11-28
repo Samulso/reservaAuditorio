@@ -10,7 +10,6 @@ body {
     color: rgb(255, 255, 255);
     display: flex;
     margin: 25px auto;
-    min-height: 100vh;
     width: 100vw; 
     background-color: #ffffff; /* Cor de fundo da página */
 }
