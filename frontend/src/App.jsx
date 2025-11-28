@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/SplashScreen" element={<SplashScreen />} />
+        <Route path="/SplashSeen" element={<SplashScreen />} />
       </Routes>
     </BrowserRouter>
   )
