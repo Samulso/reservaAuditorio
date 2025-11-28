@@ -98,7 +98,7 @@ textarea {
 .sublinhado {
     color:#2a8fe6;
     font-size: 18px;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .button-1 {
@@ -118,3 +118,4 @@ textarea {
 .button-1:hover {
     background-color: #d96c00;
 }
+
