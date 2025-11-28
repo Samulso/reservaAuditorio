@@ -53,6 +53,8 @@ function Login() {
         </div>
 
         <button className="button-1" type="submit">Login</button>
+        
+        <Link to={"/SplashScreen"}>SplashScreen</Link>
       </form>
     </div>
   );
