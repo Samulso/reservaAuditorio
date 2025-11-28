@@ -12,7 +12,6 @@ function SplashScreen() {
   };
 
   return (
-    <div className="field">
       <div className="container" id="container">
         <div className="tab-buttons">
           <button
@@ -90,7 +89,7 @@ function SplashScreen() {
           ></div>
         </div>
       </div>
-    </div>
+
   );
 }
 
